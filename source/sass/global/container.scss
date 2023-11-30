@@ -1,8 +1,7 @@
 .container {
   width: 100%;
+  max-width: $vp-1200;
   margin: 0 auto;
-  padding-left: 120px;
-  padding-right: 120px;
 
   @include vp-1199 {
     padding-left: 45px;
