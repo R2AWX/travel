@@ -28,10 +28,12 @@
                 <svg width="142" height="42" role="img">
                   <use href="img/sprite.svg#logotype"></use>
                 </svg>
+
                 <nav class="header__nav">
                   <button class="header__toggle" data-button="header" type="button">
                     <span class="visually-hidden">Открыть или закрыть меню.</span>
                   </button>
+
                   <ul class="header__list">
                     <li class="header__item">
                       <a class="header__link" href="#">Туры</a>
@@ -53,8 +55,10 @@
                     </li>
                   </ul>
                 </nav>
+
                 <a class="header__phone" href="tel:+78007253232">8 800 725-32-32</a>
               </div>
+
               <ul class="header__tablet-list">
                 <li class="header__item">
                   <a class="header__link" href="#">Туры</a>
@@ -79,7 +83,7 @@
           </section>
           <section class="hero">
             <div class="container hero__container">
-              <h2 class="hero__title">Захватывающие<br>вершины Кавказа</h2>
+              <h2>Захватывающие<br>вершины Кавказа</h2>
               <picture>
                 <source type="image/webp" srcset="img/hero/hero-caucasus@1x.webp 1x, img/hero/hero-caucasus@2x.webp 2x" width="1440" height="800">
                 <img src="img/hero/hero-caucasus@1x.jpg" srcset="img/hero/hero-caucasus@2x.jpg 2x" width="1440" height="800" alt="Горы Кавказа.">
@@ -135,8 +139,46 @@
 
       <footer>
         <section class="contacts">
-          <div class="container">
-            <h2>Контакты</h2>
+          <div class="container contacts__container">
+            <h2 class="contacts__title">Контакты</h2>
+            <p>Свяжитесь с нами любым удобным для вас способом или приходите к нам в гости. Мы будем рады поделиться увлекательными историями и подобрать для вас тур.</p>
+
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <h3 class="contacts__item-title">Телефон</h3>
+                <p class="contacts__item-description">+7 983 745-45-45</p>
+                <svg width="26" height="26" role="img">
+                  <use href="img/sprite.svg#phone"></use>
+                </svg>
+              </li>
+              <li class="contacts__item">
+                <h3 class="contacts__item-title">Email</h3>
+                <p class="contacts__item-description">info@lifetour.com</p>
+                <svg width="26" height="26" role="img">
+                  <use href="img/sprite.svg#mail"></use>
+                </svg>
+              </li>
+              <li class="contacts__item">
+                <h3 class="contacts__item-title">Адрес</h3>
+                <p class="contacts__item-description">г. Москва, пр-т Мира, д. 14, офис 101</p>
+                <svg width="26" height="26" role="img">
+                  <use href="img/sprite.svg#address"></use>
+                </svg>
+              </li>
+            </ul>
+
+            <div class="contacts__map">
+              <picture>
+                <source type="image/webp" media="(max-width: 1199px)" width="1199" height="340" srcset="./img/map/map-tablet.webp">
+                <source type="image/webp" width="585" height="324" srcset="./img/map/map-desktop@1x.webp 1x, ./img/map/map-desktop@2x.webp 2x">
+                <source type="image/jpeg" media="(max-width: 1199px)" width="1199" height="340" srcset="./img/map/map-tablet.jpg">
+                <img src="./img/map/map-desktop@1x.jpg" width="585" height="324" srcset="./img/map/map-desktop@2x.jpg 2x" alt="Карта района ВДНХ.">
+              </picture>
+
+              <svg width="34" height="44" role="img">
+                <use href="img/sprite.svg#map"></use>
+              </svg>
+            </div>
           </div>
         </section>
 
