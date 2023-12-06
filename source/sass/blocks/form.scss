@@ -1,6 +1,26 @@
 .form {
-  background-color: $color-elephant;
+  position: relative;
   color: $color-default-white;
+  min-height: 760px;
+
+  @include vp-1199 {
+    min-height: 680px;
+  }
+
+  @include vp-767 {
+    min-height: 620px;
+  }
+}
+
+.form img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-color: $color-elephant;
 }
 
 .form__container h2 {
