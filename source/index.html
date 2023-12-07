@@ -133,7 +133,25 @@
         <section class="form">
           <div class="container form__container">
             <h2>Остались вопросы?</h2>
-            <p>Заполните форму и наш оператор свяжется с вами для консультации.</p>
+            <p>Заполните форму и&nbsp;наш оператор свяжется с&nbsp;вами для консультации.</p>
+
+            <div class="form__wrapper" data-form-validate="data-form-validate" data-callback="base">
+              <form action="https://echo.htmlacademy.ru/" method="post">
+                <div class="form__input" data-validate-type="phone" data-required>
+                  <label aria-label="Ваш номер телефона.">
+                    <input type="tel" name="tel" placeholder="Телефон" autocomplete="tel" required>
+                  </label>
+                </div>
+
+                <div class="form__input" data-validate-type="email" data-required>
+                  <label aria-label="Ваша электронная почта.">
+                    <input type="email" name="email" placeholder="Email" autocomplete="email" required>
+                  </label>
+                </div>
+
+                <button class="btn form__btn" type="submit">Отправить</button>
+              </form>
+            </div>
           </div>
 
           <picture>
@@ -149,7 +167,7 @@
         <section class="contacts">
           <div class="container contacts__container">
             <h2 class="contacts__title">Контакты</h2>
-            <p>Свяжитесь с нами любым удобным для вас способом или приходите к нам в гости. Мы будем рады поделиться увлекательными историями и подобрать для вас тур.</p>
+            <p>Свяжитесь с&nbsp;нами любым удобным для вас способом или приходите к&nbsp;нам в&nbsp;гости. Мы&nbsp;будем рады поделиться увлекательными историями и&nbsp;подобрать для вас тур.</p>
 
             <ul class="contacts__list">
               <li class="contacts__item">
@@ -159,6 +177,7 @@
                   <use href="img/sprite.svg#phone"></use>
                 </svg>
               </li>
+
               <li class="contacts__item">
                 <h3 class="contacts__item-title">Email</h3>
                 <p class="contacts__item-description">info@lifetour.com</p>
@@ -166,6 +185,7 @@
                   <use href="img/sprite.svg#mail"></use>
                 </svg>
               </li>
+
               <li class="contacts__item">
                 <h3 class="contacts__item-title">Адрес</h3>
                 <p class="contacts__item-description">г. Москва, пр-т Мира, д. 14, офис 101</p>
@@ -231,12 +251,14 @@
                   <use href="img/sprite.svg#vk"></use>
                 </svg>
               </a>
+
               <a class="footer__social-link" href="https://ok.ru/htmlacademy" target="_blank" rel="noreferrer noopener">
                 <span class="visually-hidden">Одноклассники</span>
                 <svg width="11" height="16" role="img">
                   <use href="img/sprite.svg#odnoklassniki"></use>
                 </svg>
               </a>
+
               <a class="footer__social-link" href="https://www.reddit.com/htmlacademy" target="_blank" rel="noreferrer noopener">
                 <span class="visually-hidden">Reddit</span>
                 <svg width="16" height="15" role="img">
