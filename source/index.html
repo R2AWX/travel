@@ -561,9 +561,22 @@
         </section>
 
         <section class="about" data-test="about">
-          <div class="container">
-            <h2>О нас</h2>
+          <div class="container about__container">
+            <h2 class="about__title">О нас</h2>
+            <h3>История компании</h3>
+            <p>В&nbsp;далёком 2000 году мы&nbsp;начали заниматься туризмом&nbsp;— походы, поездки, восхождения, нам&nbsp;это&nbsp;настолько понравилось, что&nbsp;мы&nbsp;этим стали жить. Спустя&nbsp;5&nbsp;лет, в&nbsp;2005 году мы&nbsp;основали компанию, чтобы&nbsp;показывать людям удивительные места нашей страны.</p>
+            <h3>Наша цель</h3>
+            <p>Подарить вам незабываемые впечатления от&nbsp;похода в&nbsp;горы. Мы&nbsp;берём на&nbsp;себя все организационные вопросы. При&nbsp;организации мы&nbsp;обязательно учтём все&nbsp;ваши пожелания. Вам&nbsp;останется только наслаждаться незабываемым приключением в&nbsp;приятной компании.</p>
           </div>
+
+          <picture>
+            <source type="image/webp" media="(max-width: 767px)" width="434" height="400" srcset="./img/about/about-mobile@1x.webp 1x, ./img/about/about-mobile@2x.webp 2x">
+            <source type="image/webp" media="(max-width: 1199px)" width="542" height="350" srcset="./img/about/about-tablet@1x.webp 1x, ./img/about/about-tablet@2x.webp 2x">
+            <source type="image/webp" width="808" height="474" srcset="./img/about/about-desktop@1x.webp 1x, ./img/about/about-desktop@2x.webp 2x">
+            <source type="image/jpeg" media="(max-width: 767px)" width="434" height="400" srcset="./img/about/about-mobile@1x.jpg 1x, ./img/about/about-mobile@2x.jpg 2x">
+            <source type="image/jpeg" media="(max-width: 1199px)" width="542" height="350" srcset="./img/about/about-tablet@1x.jpg 1x, ./img/about/about-tablet@2x.jpg 2x">
+            <img src="./img/about/about-desktop@1x.jpg" width="808" height="474" srcset="./img/about/about-desktop@2x.jpg 2x" alt="Группа туристов в горах.">
+          </picture>
         </section>
 
         <section class="reviews" data-test="reviews">
