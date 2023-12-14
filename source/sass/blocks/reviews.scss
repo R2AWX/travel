@@ -99,6 +99,7 @@
   min-height: 293px;
   padding: 20px 40px 20px 20px;
   box-shadow: 0 0 20px 0 rgba(28, 51, 116, 0.1);
+  background-color: $color-default-white;
   gap: 30px;
 
   @include vp-1199 {

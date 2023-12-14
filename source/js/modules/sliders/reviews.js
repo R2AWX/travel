@@ -9,6 +9,8 @@ const setSlider = () => {
       prevEl: buttonPrev,
     },
 
+    loop: true,
+
     breakpoints: {
       1200: {
         slidesPerView: 'auto',

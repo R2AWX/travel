@@ -677,8 +677,86 @@
         </section>
 
         <section class="advantages" data-test="adv">
-          <div class="container">
-            <h2>Преимущества</h2>
+          <div class="container advantages__container">
+            <h2 class="advantages__title">Преимущества</h2>
+            <div class="advantages__swiper swiper" data-swiper="advantages">
+              <ul class="advantages__swiper-wrapper swiper-wrapper">
+                <li class="advantages__swiper-slide swiper-slide">
+                  <div class="advantages__icon-wrapper">
+                    <svg width="24" height="24">
+                      <use href="img/sprite.svg#shield"></use>
+                    </svg>
+                  </div>
+                  <h3>Безопасность</h3>
+                  <p>Уделяем внимание безопасности клиентов, внедряя строгие процедуры и&nbsp;протоколы безопасности. Имеем планы действий на&nbsp;случай непредвиденных обстоятельств и&nbsp;даём гарантию полной безопасности во&nbsp;время всего тура.</p>
+                </li>
+
+                <li class="advantages__swiper-slide swiper-slide">
+                  <div class="advantages__icon-wrapper">
+                    <svg width="24" height="24">
+                      <use href="img/sprite.svg#crown"></use>
+                    </svg>
+                  </div>
+                  <h3>Экспертиза и знания</h3>
+                  <p>Наша команда опытных гидов имеет обширные знания о&nbsp;местности, погодных условиях и&nbsp;технике безопасности. Это гарантирует, что наши клиенты находятся в&nbsp;надёжных руках и&nbsp;могут в&nbsp;полной мере насладиться опытом без опасений.</p>
+                </li>
+
+                <li class="advantages__swiper-slide swiper-slide">
+                  <div class="advantages__icon-wrapper">
+                    <svg width="24" height="24">
+                      <use href="img/sprite.svg#boot"></use>
+                    </svg>
+                  </div>
+                  <h3>Оборудование и снаряжение</h3>
+                  <p>Мы&nbsp;предоставляем клиентам все необходимое оборудование, необходимое для путешествия. Это избавляет клиентов от&nbsp;необходимости покупать, брать с&nbsp;собой снаряжение, что делает путешествие более удобным и&nbsp;экономически выгодным.</p>
+                </li>
+
+                <li class="advantages__swiper-slide swiper-slide">
+                  <div class="advantages__icon-wrapper">
+                    <svg width="24" height="24">
+                      <use href="img/sprite.svg#path"></use>
+                    </svg>
+                  </div>
+                  <h3>Индивидуальные маршруты</h3>
+                  <p>Предлагаем широкий выбор туров, отвечающих различным уровням мастерства и&nbsp;интересам. Мы&nbsp;также можем адаптировать маршруты к&nbsp;вашим конкретным потребностям и&nbsp;предпочтениям, чтобы вы&nbsp;получили индивидуальный опыт.</p>
+                </li>
+
+                <li class="advantages__swiper-slide swiper-slide">
+                  <div class="advantages__icon-wrapper">
+                    <svg width="24" height="24">
+                      <use href="img/sprite.svg#leaf"></use>
+                    </svg>
+                  </div>
+                  <h3>Бережное отношение<br>к природе</h3>
+                  <p>Уделяем первостепенное внимание охране окружающей среды и&nbsp;гарантируем, что туры оказывают минимальное воздействие на&nbsp;природную среду. Наша компания следует принципу «Не&nbsp;оставлять следов».</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="advantages__button-container">
+              <button class="btn btn--arrow advantages__button" type="button" data-button="prev-advantages">
+                <span class="visually-hidden">Предыдущий слайд.</span>
+                <svg width="14" height="9">
+                  <use href="img/sprite.svg#left"></use>
+                </svg>
+              </button>
+
+              <button class="btn btn--arrow advantages__button" type="button" data-button="next-advantages">
+                <span class="visually-hidden">Следующий слайд.</span>
+                <svg width="14" height="9">
+                  <use href="img/sprite.svg#right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="advantages__background">
+            <picture>
+              <source type="image/webp" media="(max-width: 1199px)" width="2091" height="996" srcset="./img/backgrounds/clouds-adv-tablet@1x.webp 1x, ./img/backgrounds/clouds-adv-tablet@2x.webp 2x">
+              <source type="image/webp" width="2091" height="447" srcset="./img/backgrounds/clouds-adv-desktop@1x.webp 1x, ./img/backgrounds/clouds-adv-desktop@2x.webp 2x">
+              <source type="image/png" media="(max-width: 1199px)" width="2091" height="996" srcset="./img/backgrounds/clouds-adv-tablet@1x.png 1x, ./img/backgrounds/clouds-adv-tablet@2x.png 2x">
+              <img src="./img/backgrounds/clouds-adv-desktop@1x.png" width="2091" height="447" srcset="./img/backgrounds/clouds-adv-desktop@2x.png 2x" alt="">
+            </picture>
           </div>
         </section>
 
