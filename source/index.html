@@ -83,6 +83,21 @@
                       </svg>
                     </li>
                   </ul>
+
+                  <div class="hero__content hero__content--video" data-overlay="hero">
+                    <picture>
+                      <source type="image/webp" media="(max-width: 1199px)" width="442" height="300" srcset="./img/hero/hero-video-tablet@1x.webp 1x, ./img/hero/hero-video-tablet@2x.webp 2x">
+                      <source type="image/webp" width="482" height="317" srcset="./img/hero/hero-video-desktop@1x.webp 1x, ./img/hero/hero-video-desktop@2x.webp 2x">
+                      <source type="image/jpeg" media="(max-width: 1199px)" width="442" height="300" srcset="./img/hero/hero-video-tablet@1x.jpg 1x, ./img/hero/hero-video-tablet@2x.jpg 2x">
+                      <img src="./img/hero/hero-video-desktop@1x.jpg" width="482" height="317" srcset="./img/hero/hero-video-desktop@2x.jpg 2x" alt="Постер видео про туриста.">
+                    </picture>
+                    <button class="hero__play" type="button" data-button="hero">
+                      <span class="visually-hidden">Воспроизвести видео.</span>
+                      <svg width="12" height="22" role="img">
+                        <use href="img/sprite.svg#play"></use>
+                      </svg>
+                    </button>
+                  </div>
                 </div>
 
                 <div class="hero__wrapper">
@@ -114,12 +129,14 @@
                     </li>
                   </ul>
 
-                  <picture>
-                    <source type="image/webp" media="(max-width: 1199px)" width="442" height="365" srcset="./img/hero/hero-photo-tablet@1x.webp 1x, ./img/hero/hero-photo-tablet@2x.webp 2x">
-                    <source type="image/webp" width="410" height="459" srcset="./img/hero/hero-photo-desktop@1x.webp 1x, ./img/hero/hero-photo-desktop@2x.webp 2x">
-                    <source type="image/png" media="(max-width: 1199px)" width="442" height="365" srcset="./img/hero/hero-photo-tablet@1x.png 1x, ./img/hero/hero-photo-tablet@2x.png 2x">
-                    <img src="./img/hero/hero-photo-desktop@1x.png" width="410" height="459" srcset="./img/hero/hero-photo-desktop@2x.png 2x" alt="Фотографии горного озера и девушки в жёлтом.">
-                  </picture>
+                  <div class="hero__content">
+                    <picture>
+                      <source type="image/webp" media="(max-width: 1199px)" width="442" height="365" srcset="./img/hero/hero-photo-tablet@1x.webp 1x, ./img/hero/hero-photo-tablet@2x.webp 2x">
+                      <source type="image/webp" width="410" height="459" srcset="./img/hero/hero-photo-desktop@1x.webp 1x, ./img/hero/hero-photo-desktop@2x.webp 2x">
+                      <source type="image/png" media="(max-width: 1199px)" width="442" height="365" srcset="./img/hero/hero-photo-tablet@1x.png 1x, ./img/hero/hero-photo-tablet@2x.png 2x">
+                      <img src="./img/hero/hero-photo-desktop@1x.png" width="410" height="459" srcset="./img/hero/hero-photo-desktop@2x.png 2x" alt="Фотографии горного озера и девушки в жёлтом.">
+                    </picture>
+                  </div>
                 </div>
 
                 <div class="hero__wrapper">
@@ -150,6 +167,8 @@
                       </svg>
                     </li>
                   </ul>
+
+                  <div class="hero__content hero__content--audio"></div>
                 </div>
 
                 <div class="hero__wrapper">
