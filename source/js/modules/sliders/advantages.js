@@ -19,12 +19,6 @@ const setSlider = () => {
         initialSlide: 2,
       },
 
-      768: {
-        centeredSlides: false,
-        slidesPerView: 'auto',
-        spaceBetween: 0,
-      },
-
       320: {
         centeredSlides: false,
         slidesPerView: 'auto',

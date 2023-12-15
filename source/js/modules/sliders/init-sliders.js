@@ -3,6 +3,7 @@ import {initSliderTours} from './tours';
 import {initSliderTraining} from './training';
 import {initSliderReviews} from './reviews';
 import {initSliderAdvantages} from './advantages';
+import {initSliderGallery} from './gallery';
 
 const initSliders = () => {
   initSliderHero();
@@ -10,6 +11,7 @@ const initSliders = () => {
   initSliderTraining();
   initSliderReviews();
   initSliderAdvantages();
+  initSliderGallery();
 };
 
 export {initSliders};
