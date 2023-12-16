@@ -1,6 +1,6 @@
 .contacts__container {
   padding-top: 65px;
-  padding-bottom: 95px;
+  padding-bottom: 94px;
   min-height: 484px;
 
   @include vp-1199 {
@@ -14,7 +14,7 @@
   font-size: 35px;
   font-weight: 800;
   line-height: 35px;
-  margin: 19px 0 26px;
+  margin: 23px 0;
 
   @include vp-1199 {
     font-size: 25px;
@@ -31,7 +31,7 @@
   &::before {
     content: "Контакты";
     position: absolute;
-    top: 65px;
+    top: 70px;
     left: 0;
     margin: 0;
     font-size: 55px;
@@ -54,7 +54,7 @@
 }
 
 .contacts__container > p {
-  margin: 0 0 50px;
+  margin: 0 0 49px;
   max-width: 500px;
 
   @include vp-1199 {
@@ -155,7 +155,7 @@
 
 .contacts__map {
   position: absolute;
-  bottom: 95px;
+  bottom: 94px;
   right: 0;
 
   @include vp-1199 {

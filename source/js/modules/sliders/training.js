@@ -13,13 +13,13 @@ const setSlider = () => {
       1200: {
         slidesPerView: 4,
         spaceBetween: 20,
-        initialSlide: 0,
+        initialSlide: 5,
       },
 
       768: {
         slidesPerView: 3,
         spaceBetween: 20,
-        initialSlide: 0,
+        initialSlide: 5,
       },
 
       320: {

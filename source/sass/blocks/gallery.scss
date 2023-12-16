@@ -1,6 +1,6 @@
 .gallery__container {
   padding-top: 1px;
-  padding-bottom: 46px;
+  padding-bottom: 45px;
 
   @include vp-1199 {
     padding-bottom: 21px;
@@ -15,7 +15,7 @@
   font-size: 35px;
   font-weight: 800;
   line-height: 35px;
-  margin: 18px 0 27px;
+  margin: 23px 0;
 
   @include vp-1199 {
     font-size: 25px;
