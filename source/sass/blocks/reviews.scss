@@ -3,7 +3,7 @@
 
   @include vp-1199 {
     padding-top: 37px;
-    padding-bottom: 37px;
+    padding-bottom: 42px;
   }
 
   @include vp-767 {
@@ -21,7 +21,7 @@
   @include vp-1199 {
     font-size: 25px;
     line-height: 25px;
-    margin: 15px 0 33px;
+    margin: 17px 0 41px;
   }
 
   @include vp-767 {
@@ -41,7 +41,7 @@
     color: fade-out($color-elephant, 0.97);
 
     @include vp-1199 {
-      top: 37px;
+      top: 42px;
       left: 45px;
       font-size: 40px;
       line-height: 40px;
@@ -64,7 +64,7 @@
   gap: 4px;
 
   @include vp-1199 {
-    top: 44px;
+    top: 43px;
     right: 45px;
   }
 
@@ -75,10 +75,11 @@
 }
 
 .reviews__swiper {
-  padding: 15px;
   margin: -5px;
+  padding: 15px;
 
   @include vp-1199 {
+    margin: -5px 0;
     padding: 20px 0;
   }
 
@@ -135,7 +136,7 @@
 
 .reviews__content-wrapper {
   @include vp-1199 {
-    align-self: center;
+    align-self: flex-end;
   }
 
   @include vp-767 {
@@ -151,7 +152,7 @@
   @include vp-1199 {
     font-size: 12px;
     line-height: 18px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   @include vp-767 {
@@ -160,6 +161,10 @@
 
   &:last-of-type {
     margin-bottom: 13px;
+
+    @include vp-1199 {
+      margin-bottom: 26px;
+    }
   }
 }
 
@@ -168,10 +173,6 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 13px;
-
-  @include vp-1199 {
-    margin-bottom: 6px;
-  }
 
   @include vp-767 {
     font-size: 12px;

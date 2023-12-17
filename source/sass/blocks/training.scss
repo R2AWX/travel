@@ -55,7 +55,7 @@
   @include vp-1199 {
     font-size: 25px;
     line-height: 25px;
-    margin: 15px 0 26px;
+    margin: 17px 0 21px;
   }
 
   @include vp-767 {
@@ -75,7 +75,7 @@
     color: fade-out($color-elephant, 0.97);
 
     @include vp-1199 {
-      top: 45px;
+      top: 50px;
       left: 45px;
       font-size: 40px;
       line-height: 40px;
@@ -96,7 +96,7 @@
 
   @include vp-1199 {
     max-width: 560px;
-    margin-bottom: 25px;
+    margin-bottom: 29px;
   }
 
   @include vp-767 {
@@ -110,7 +110,7 @@
   margin-bottom: 58px;
 
   @include vp-1199 {
-    margin-bottom: 25px;
+    margin-bottom: 27px;
   }
 }
 
@@ -208,10 +208,14 @@
   margin-bottom: 26px;
 
   @include vp-1199 {
-    margin-bottom: 44px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 40px;
   }
 
   @include vp-767 {
+    font-size: 16px;
+    line-height: 16px;
     margin-bottom: 25px;
   }
 }
@@ -226,8 +230,7 @@
 
   @include vp-1199 {
     grid-template-columns: repeat(2, 246px);
-    column-gap: 98px;
-    row-gap: 91px;
+    gap: 90px 97px;
   }
 
   @include vp-767 {
@@ -263,7 +266,7 @@
     background-color: fade-out($color-navy-blue, 0.8);
 
     @include vp-1199 {
-      top: 58px;
+      top: 59px;
       width: 344px;
       box-shadow: 0 55px 0 0 fade-out($color-navy-blue, 0.8);
     }
@@ -324,11 +327,13 @@
 
 .training__item p {
   margin: 0 0 3px;
-  padding-left: 45px;
+  padding: 0 10px 0 45px;
 
   @include vp-1199 {
     font-size: 14px;
     line-height: 22px;
+    padding-right: 0;
+    margin-bottom: 2px;
   }
 
   @include vp-767 {
