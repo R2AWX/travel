@@ -42,7 +42,7 @@
   @include vp-767 {
     font-size: 22px;
     line-height: 22px;
-    margin-bottom: 20px;
+    margin: 0 0 18px;
   }
 }
 
@@ -73,13 +73,7 @@
   }
 
   @include vp-767 {
-    gap: 8px;
-  }
-}
-
-.form__input {
-  @include vp-767 {
-    width: 100%;
+    gap: 7px;
   }
 }
 
@@ -101,7 +95,7 @@
   }
 
   @include vp-767 {
-    width: 100%;
+    width: 290px;
   }
 
   &::placeholder {

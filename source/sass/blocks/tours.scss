@@ -42,7 +42,7 @@
   @include vp-767 {
     font-size: 22px;
     line-height: 22px;
-    margin-top: 32px;
+    margin: 34px 0 24px;
   }
 
   &::before {
@@ -63,7 +63,7 @@
     }
 
     @include vp-767 {
-      top: 20px;
+      top: 26px;
       left: 15px;
       right: 15px;
     }
@@ -93,6 +93,10 @@
 
   @include vp-1199 {
     margin-bottom: 26px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 25px;
   }
 }
 
@@ -226,6 +230,11 @@
   line-height: 16px;
   letter-spacing: 0.64px;
   text-transform: uppercase;
+
+  @include vp-767 {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 
 .tours__link svg {
