@@ -73,7 +73,7 @@
 }
 
 .advantages__swiper-slide {
-  padding: 40px 20px;
+  padding: 40px 19px;
   width: 380px;
   height: auto;
   border: 1px solid fade-out($color-navy-blue, 0.9);
@@ -162,7 +162,7 @@
 .advantages__button-container {
   display: flex;
   justify-content: center;
-  gap: 4px;
+  gap: 6px;
 
   @include vp-1199 {
     display: none;

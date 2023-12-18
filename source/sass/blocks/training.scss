@@ -4,7 +4,7 @@
   &::after {
     content: "";
     position: absolute;
-    bottom: 71px;
+    bottom: 14px;
     left: 50%;
     height: 1px;
     right: 0;
@@ -18,7 +18,7 @@
 
 .training__background img {
   position: absolute;
-  bottom: -114px;
+  bottom: -171px;
   right: 0;
   z-index: -1;
 
@@ -33,7 +33,7 @@
 
 .training__container {
   padding-top: 20px;
-  padding-bottom: 78px;
+  padding-bottom: 21px;
 
   @include vp-1199 {
     padding-top: 45px;
@@ -55,7 +55,7 @@
   @include vp-1199 {
     font-size: 25px;
     line-height: 25px;
-    margin: 17px 0 21px;
+    margin: 18px 0 21px;
   }
 
   @include vp-767 {
@@ -130,7 +130,7 @@
   display: flex;
   justify-content: flex-end;
   margin: -3px 0 20px;
-  gap: 4px;
+  gap: 6px;
 
   @include vp-1199 {
     margin-bottom: 30px;
@@ -154,7 +154,7 @@
   background-color: $color-default-white;
   border: 1px solid fade-out($color-navy-blue, 0.9);
 
-  @include vp-767 {
+  @include vp-1199 {
     padding: 14px;
   }
 }
@@ -164,11 +164,6 @@
   height: 200px;
   object-fit: cover;
   margin-bottom: 16px;
-
-  @include vp-767 {
-    margin-bottom: 17px;
-
-  }
 }
 
 .training__swiper-content {
@@ -180,6 +175,10 @@
   font-weight: 700;
   line-height: 16px;
   margin: 0 0 13px;
+
+  @include vp-1199 {
+    margin-bottom: 14px;
+  }
 }
 
 .training__swiper-content p {
@@ -244,7 +243,7 @@
 
   @include vp-1199 {
     grid-template-columns: repeat(2, 246px);
-    gap: 90px 97px;
+    gap: 89px 97px;
   }
 
   @include vp-767 {
@@ -354,7 +353,7 @@
     font-size: 12px;
     line-height: 18px;
     padding-left: 63px;
-    margin-bottom: 0;
+    margin: -1px 0 1px;
     width: 260px;
   }
 }
@@ -367,8 +366,7 @@
   @include vp-767 {
     width: 21px;
     height: 21px;
-    top: 50%;
+    top: 5px;
     left: 29px;
-    transform: translateY(-50%);
   }
 }
