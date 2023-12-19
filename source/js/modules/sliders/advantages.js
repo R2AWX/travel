@@ -5,7 +5,7 @@ const buttonPrev = document.querySelector('[data-button="prev-advantages"]');
 let advSwiper;
 
 const setSlider = () => {
-  advSwiper = new Swiper(slider, {
+  advSwiper = new window.Swiper(slider, {
     navigation: {
       nextEl: buttonNext,
       prevEl: buttonPrev,
