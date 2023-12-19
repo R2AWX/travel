@@ -28,7 +28,7 @@
   @include vp-767 {
     font-size: 22px;
     line-height: 22px;
-    margin: 8px 0 20px;
+    margin: 8px 0 19px;
   }
 
   &::before {
@@ -47,7 +47,7 @@
     }
 
     @include vp-767 {
-      top: 40px;
+      top: 42px;
       font-size: 26px;
       line-height: 26px;
     }
