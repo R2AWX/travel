@@ -40,7 +40,7 @@
     margin: 0;
     font-size: 55px;
     line-height: 55px;
-    color: fade-out($color-elephant, 0.97);
+    color: $color-elephant-03;
 
     @include vp-1199 {
       top: 50px;
@@ -76,7 +76,7 @@
   padding: 40px 19px;
   width: 380px;
   height: auto;
-  border: 1px solid fade-out($color-navy-blue, 0.9);
+  border: 1px solid $color-navy-blue-10;
   background-color: $color-default-white;
 
   @include vp-1199 {

@@ -80,7 +80,7 @@
 .form__input input {
   display: block;
   padding: 19px 29px;
-  border: 1px solid fade-out($color-navy-blue, 0.9);
+  border: 1px solid $color-navy-blue-10;
   border-radius: 2px;
   outline: none;
   width: 360px;
@@ -99,7 +99,7 @@
   }
 
   &::placeholder {
-    color: fade-out($color-default-black, 0.5);
+    color: $color-elephant-50;
   }
 
   @include hover {
@@ -123,7 +123,7 @@
     cursor: default;
 
     &::placeholder {
-      color: fade-out($color-navy-blue, 0.5);
+      color: $color-navy-blue-50;
     }
   }
 }

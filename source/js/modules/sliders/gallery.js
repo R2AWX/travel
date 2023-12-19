@@ -14,7 +14,7 @@ const setSlider = () => new window.Swiper(slider, {
 
   breakpoints: {
     1200: {
-      slidesPerView: 5,
+      slidesPerView: 'auto',
       spaceBetween: 5,
       initialSlide: 0,
     },

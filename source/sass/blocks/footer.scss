@@ -1,5 +1,5 @@
 .footer {
-  border-top: 1px solid fade-out($color-elephant, 0.8);
+  border-top: 1px solid $color-elephant-20;
 }
 
 .footer__container {
@@ -136,7 +136,7 @@
   position: relative;
   width: 30px;
   height: 30px;
-  border: 1px solid fade-out($color-elephant, 0.8);
+  border: 1px solid $color-elephant-20;
 
   @include hover-focus {
     border-color: $color-elephant;
@@ -149,7 +149,7 @@
   }
 
   &:disabled {
-    color: fade-out($color-elephant, 0.8);
+    color: $color-elephant-20;
   }
 }
 

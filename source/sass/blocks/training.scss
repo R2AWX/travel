@@ -8,7 +8,7 @@
     left: 50%;
     height: 1px;
     right: 0;
-    background-color: fade-out($color-navy-blue, 0.8);
+    background-color: $color-navy-blue-20;
 
     @include vp-1199 {
       display: none;
@@ -72,7 +72,7 @@
     margin: 0;
     font-size: 55px;
     line-height: 55px;
-    color: fade-out($color-elephant, 0.97);
+    color: $color-elephant-03;
 
     @include vp-1199 {
       top: 50px;
@@ -152,7 +152,7 @@
   height: auto;
   padding: 15px 14px;
   background-color: $color-default-white;
-  border: 1px solid fade-out($color-navy-blue, 0.9);
+  border: 1px solid $color-navy-blue-10;
 
   @include vp-1199 {
     padding: 14px;
@@ -193,7 +193,7 @@
   right: 1px;
   width: 24px;
   height: 24px;
-  border: 1px solid fade-out($color-elephant, 0.8);
+  border: 1px solid $color-elephant-20;
 
   @include hover-focus {
     border-color: $color-elephant;
@@ -206,7 +206,7 @@
   }
 
   &:disabled {
-    color: fade-out($color-elephant, 0.8);
+    color: $color-elephant-20;
   }
 }
 
@@ -259,7 +259,7 @@
       bottom: 65px;
       left: 360px;
       width: 1px;
-      background-color: fade-out($color-navy-blue, 0.8);
+      background-color: $color-navy-blue-20;
     }
 
     @include vp-767 {
@@ -276,12 +276,12 @@
     left: 17px;
     height: 1px;
     right: 50%;
-    background-color: fade-out($color-navy-blue, 0.8);
+    background-color: $color-navy-blue-20;
 
     @include vp-1199 {
       top: 59px;
       width: 344px;
-      box-shadow: 0 55px 0 0 fade-out($color-navy-blue, 0.8);
+      box-shadow: 0 55px 0 0 $color-navy-blue-20;
     }
 
     @include vp-767 {

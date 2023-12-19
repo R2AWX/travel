@@ -221,7 +221,7 @@
   }
 
   @include active {
-    color: fade-out($color-default-white, 0.5);
+    color: $color-white-50;
   }
 
   &:disabled {

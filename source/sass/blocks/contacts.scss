@@ -36,7 +36,7 @@
     margin: 0;
     font-size: 55px;
     line-height: 55px;
-    color: fade-out($color-elephant, 0.97);
+    color: $color-elephant-03;
 
     @include vp-1199 {
       top: 45px;
@@ -143,6 +143,7 @@
 
 .contacts__item-description {
   margin: 0;
+  max-width: 550px;
 
   @include vp-1199 {
     font-size: 14px;
