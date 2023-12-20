@@ -199,6 +199,10 @@
     border-color: $color-elephant;
   }
 
+  @include focus {
+    outline: none;
+  }
+
   @include active {
     border-color: $color-navy-blue;
     background-color: $color-navy-blue;

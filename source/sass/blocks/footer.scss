@@ -113,6 +113,10 @@
     color: $color-resolution-blue;
   }
 
+  @include focus {
+    outline: none;
+  }
+
   @include active {
     color: $color-navy-blue;
   }
@@ -140,6 +144,10 @@
 
   @include hover-focus {
     border-color: $color-elephant;
+  }
+
+  @include focus {
+    outline: none;
   }
 
   @include active {

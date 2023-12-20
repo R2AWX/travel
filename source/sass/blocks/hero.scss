@@ -106,6 +106,10 @@
     stroke: $color-elephant;
   }
 
+  @include focus {
+    outline: none;
+  }
+
   @include active {
     background-color: $color-resolution-blue;
     stroke: none;

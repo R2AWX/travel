@@ -29,7 +29,7 @@ const setSlider = () => {
 };
 
 const onWindowResize = () => {
-  if (window.innerWidth <= 1200) {
+  if (window.innerWidth < 1200) {
     advSwiper.disable();
   } else {
     advSwiper.enable();

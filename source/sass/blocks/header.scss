@@ -32,6 +32,19 @@
   }
 }
 
+.header__container.is-open::before {
+  @include vp-1199 {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background-color: $color-elephant-60;
+    z-index: -1;
+  }
+}
+
 .header__wrapper {
   position: relative;
   display: flex;
@@ -218,6 +231,10 @@
 
   @include hover-focus {
     color: $color-resolution-blue;
+  }
+
+  @include focus {
+    outline: none;
   }
 
   @include active {
